@@ -1,0 +1,28 @@
+#question 1
+#student name:Ella Njuguna
+
+taylorswiftsongs =("lovestory" ,"blank space" , "shake it off", "bad blood" , "delicate", "you belong with me" , "wildest dreams" , "Red" , "all too well" , "22")
+print("this is taylors songs" ,taylorswiftsongs, ".")
+#here shows all the songs for taylor swift
+
+taylorsong = input("please enter a song from list above",taylorsong,)#asking the user to enter there song choice and replys back there song choice
+len = print=("your song is in the list position",taylorsong," out of 10 songs")
+
+taylorswiftsongs.[,taylorsongs,]
+
+#question 2
+#studentname:Ella Njuguna
+
+print("welcome to temperature alert system")#this displays the messege asked for
+
+temperature = int(input("enter temperature value in degrees celsius",temperature))#user will put in there temp and it will deterimine the next sentence 
+#print("the temerature value in degree is celsius",temperature,)
+if temperature <20 : #if temperature  the user put in less then 20 it will display
+   print("too cold turn up right") #this
+
+else temperature =20 and temperature <24: # if user displays inbetween 20 and 24 the next sentence will give out
+   print("temperature is just right") #this sentence
+#if number higher then 24 it will diplay elif to the the user
+
+elif :
+ print("too warm turn down heating")
