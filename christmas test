@@ -1,0 +1,36 @@
+#Student Name = Ella Njuguna
+
+num1 = int(input("enter the first number:"))#to ask user for a number you must use int(input for the code to allow running a number(iV)
+num2 = int(input("enter the second number:"))#you also must equal these from a varriable for the user to be asked what to change it too (iv)
+#this calculator can only add and subtract
+name = input("please enter your name")#create a variable (name) into an input to ask user there name(ii)
+print("hello",name,".")#after user enters name print code saying hello and then add  this (,) to your veriable after ending qutations ("") so this will print the varriable that the user added question (iii)
+print("welcome to the addition and subtraction calculator.")
+
+print('Do you want me to (a)dd or (s)ubtract?')
+choice = input()
+
+if choice == 'a':
+    print (num1 + num2)       
+elif choice == 's':
+    print (num1 - num2)
+elif choice == 'A':
+    print (num1 + num2)#Vi
+elif choice == 'S':
+    print (num1 - num2)#Vi
+
+elif choice:
+    print("invalid option")#VII to make an invalid option is user adds any other form then the right one
+
+#student name = Ella Njuguna
+
+squared_numbers = [1,4,9,16,25,36,49,64,81,100,121,144,169,196,225,256,289,324,361,400]# using square brackets to create a list euqueled by a varriable
+print(squared_numbers)#ii
+
+squared_numbers.append(1)
+squared_numbers.append(2)
+squared_numbers.append(3)
+
+num =input("what is the numbers you want from the frist 20 squared numbers")#to ask the user what numbers the want from the list using input
+print(num)
+    
