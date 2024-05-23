@@ -1,0 +1,34 @@
+#Question 1
+#Student Name: Ella Njuguna
+
+print("welcome to the driving licence eligibility checker")#Qi)changed print("The program") to print that instead 
+name = input("what is your name?")#Qv)
+age=int(input("What age are you?"))#Qii) this line 6 is a variable = the question that is asking the user what age they are. using int(input since age is a number.
+
+if (age >17<=74):#Qvi
+    print("you have entered" , age ,)#qiii)
+    print("You are entitled to apply for a driving licence.")
+elif (age <17):#Qiv)
+    print( name , "you are not entitled to apply for a driving licence")#Qv)
+elif (age >=75):#Qvi
+    print( name , "you are not entitled to apply for a  three-year driving licence")
+else:
+    print( name , "you are not entitled to apply for a  three-year driving licence")
+    
+#question 2
+#student name:Ella Njuguna
+import random
+
+guess = random.randint(1,50)
+randomNum = 12#random number user must guess
+
+userguess = int(input("guess a number inbetween 1 and 50"))#the code for the user to add in answer
+
+if (userguess >randomNum):#if the user guess is too high tis will print
+    print("too high")
+elif (userguess <randomNum):#if the user guess is too low this will print
+    print("too low")
+elif (userguess == randomNum):#if the user guess is correct this will print
+    print("you have won")
+elif(userguess != randomNum):#does not run but this is to start the game again
+    print(userguess)
