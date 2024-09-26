@@ -1,0 +1,70 @@
+#question 1 (a)
+#student name: Ella njuguna
+#length = 6
+#width = 4
+print("this program can find the perimeter of a quadrilateral")#this prints out statement for question (I)
+
+
+
+length= int(input("please enter the length:"))#(III) this allows the user to enter the l and w even if decimals
+width= int(input("please enter the width:"))
+#float(length)
+#float(width)
+
+
+name = input("please enter your  user name:")#(II)this asks user to add there name for later in the program it will slot there name
+
+
+choice = input("do you want to find the (p)erimeter or (a)rea")
+if choice == "p":
+    print(length + length + width + width)
+elif choice == "a":
+    print(length*width)
+    
+
+print("the quadirtel with a length of " ,length, " and a width of ",width)
+print("thank you for using this program" ,name,)#(II)
+
+
+#question 1 (b)
+#student name:Ella njuguna
+
+import random
+
+computer_options = ["rock","paper","scissors"]
+
+
+computer_choice = computer_options [random.randint(0,2)]
+
+playerchoice = input("enter rock , paper , or scissors")#(i)
+print("player chose:",playerchoice,)#(i)
+print("computer chose:",computer_choice,)#(I)
+
+if rock > paper or scissors > rock paper > rock or paper > scissors:# (II) dosent run 
+    print("computer wins")
+    
+elif paper > rock or paper > scissors rock > paper or scissors > rock:
+    print("player wins")
+    
+else paper == paper or rock == rock or scissors == scissors:
+    print(draw)
+
+#question 2
+#student name:ella njuguna
+vip = 150
+regular = 75
+budget =40
+
+def total(total):
+    print("the total amount is", total)
+
+vip = int(input("enter vip total"))
+
+regular = int(input("enter regular"))
+
+budget = int(input("enter budget"))
+
+vip + regular + budget 
+
+
+
