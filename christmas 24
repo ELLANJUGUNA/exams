@@ -1,0 +1,40 @@
+#question 1
+#name:Ella Njuguna
+
+from random import choice
+
+fruits = ['apple' , 'cherry' , ' orange ' ]
+
+random_fruit_1 = choice(fruits)
+print("random fruit 1:",random_fruit_1, )#question i) print the random satement
+
+random_fruit_2 = choice(fruits)#question ii) to add 2 more random choices 
+print("random fruit 2:",random_fruit_2, )
+
+random_fruit_3 = choice(fruits)
+print("random fruit 3:",random_fruit_3, )
+
+if random_fruit_1 == (1):#question iii) to add a statement if first random loads up cherry
+    print("first fruit is cherry")
+
+elif random_fruit_1 == random_fruit_2 :#question iv
+    print("first pair is a match")
+
+elif random_fruit_1 == random_fruit_2 == (1):
+    print("first pair are cherries")
+    
+elif random_fruit_1 == random_fruit_2 or random_fruit_1 == random_fruit_3 or random_fruit_2 == random_fruit_3 or random_fruit_3 == random_fruit_1:#question vi) this prints any random matching pair 
+    print("matching pair")#activaites print statement
+    
+
+for fruits in range(100):#question vii) to generate code 100 times
+    print(fruits)
+
+  #question 2
+print("split bill calculator")
+billamount = int(input("how much is the bill?:"))
+people = int(input("how many people is there?:"))
+
+total= billamount\\= people 
+
+print("you each owe" ,total,)
